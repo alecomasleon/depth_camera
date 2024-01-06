@@ -54,6 +54,7 @@
 		A936F9222B2ECB53002DEBBA /* depth_camera_storyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depth_camera_storyboardUITests.swift; sourceTree = "<group>"; };
 		A936F9242B2ECB53002DEBBA /* depth_camera_storyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depth_camera_storyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A936F9312B2FBD14002DEBBA /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		A9539B1E2B49415300C428F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A9E5983E2B43ED3B00F1126C /* DepthMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthMapController.swift; sourceTree = "<group>"; };
 		A9E598402B43EF5900F1126C /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
 		A9E598422B44199000F1126C /* DepthMapCaptureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthMapCaptureProcessor.swift; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 				A9E5983E2B43ED3B00F1126C /* DepthMapController.swift */,
 				A9E598422B44199000F1126C /* DepthMapCaptureProcessor.swift */,
 				A9E598402B43EF5900F1126C /* InputController.swift */,
+				A9539B1E2B49415300C428F8 /* README.md */,
 			);
 			path = depth_camera_storyboard;
 			sourceTree = "<group>";

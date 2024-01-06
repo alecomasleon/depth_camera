@@ -1,0 +1,2 @@
+#  Depth Camera iOS App
+iOS app that implements the front camera, back camera, and front true depth camera using AVFoundation and UIKit. When app is launched, it shows the first tab, labelled "CA" for "Camera", which is a preview of the back camera, which can be switched to front. On the second tab, labelled "DM" for "Depth Map", it shows a preview of the front camera. If the shutter button is pressed, it will take a depth map picture using the true depth front camera and display it on the third tab, labelled "LP" for "Last Picture."
