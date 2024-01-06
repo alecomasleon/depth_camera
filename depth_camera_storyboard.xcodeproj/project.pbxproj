@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A936F9022B2ECB51002DEBBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936F9012B2ECB51002DEBBA /* AppDelegate.swift */; };
+		A936F9042B2ECB51002DEBBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936F9032B2ECB51002DEBBA /* SceneDelegate.swift */; };
+		A936F9062B2ECB51002DEBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936F9052B2ECB51002DEBBA /* ViewController.swift */; };
+		A936F9092B2ECB51002DEBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A936F9072B2ECB51002DEBBA /* Main.storyboard */; };
+		A936F90B2B2ECB53002DEBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A936F90A2B2ECB53002DEBBA /* Assets.xcassets */; };
+		A936F90E2B2ECB53002DEBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A936F90C2B2ECB53002DEBBA /* LaunchScreen.storyboard */; };
+		A936F9192B2ECB53002DEBBA /* depth_camera_storyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936F9182B2ECB53002DEBBA /* depth_camera_storyboardTests.swift */; };
+		A936F9232B2ECB53002DEBBA /* depth_camera_storyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936F9222B2ECB53002DEBBA /* depth_camera_storyboardUITests.swift */; };
+		A936F9252B2ECB53002DEBBA /* depth_camera_storyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936F9242B2ECB53002DEBBA /* depth_camera_storyboardUITestsLaunchTests.swift */; };
+		A936F9322B2FBD14002DEBBA /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936F9312B2FBD14002DEBBA /* CameraController.swift */; };
+		A9E5983F2B43ED3B00F1126C /* DepthMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5983E2B43ED3B00F1126C /* DepthMapController.swift */; };
+		A9E598412B43EF5900F1126C /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E598402B43EF5900F1126C /* InputController.swift */; };
+		A9E598432B44199000F1126C /* DepthMapCaptureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E598422B44199000F1126C /* DepthMapCaptureProcessor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A936F9152B2ECB53002DEBBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A936F8F62B2ECB51002DEBBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A936F8FD2B2ECB51002DEBBA;
+			remoteInfo = depth_camera_storyboard;
+		};
+		A936F91F2B2ECB53002DEBBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A936F8F62B2ECB51002DEBBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A936F8FD2B2ECB51002DEBBA;
+			remoteInfo = depth_camera_storyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A936F8FE2B2ECB51002DEBBA /* depth_camera_storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = depth_camera_storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A936F9012B2ECB51002DEBBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A936F9032B2ECB51002DEBBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A936F9052B2ECB51002DEBBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A936F9082B2ECB51002DEBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A936F90A2B2ECB53002DEBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A936F90D2B2ECB53002DEBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A936F90F2B2ECB53002DEBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A936F9142B2ECB53002DEBBA /* depth_camera_storyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = depth_camera_storyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A936F9182B2ECB53002DEBBA /* depth_camera_storyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depth_camera_storyboardTests.swift; sourceTree = "<group>"; };
+		A936F91E2B2ECB53002DEBBA /* depth_camera_storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = depth_camera_storyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A936F9222B2ECB53002DEBBA /* depth_camera_storyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depth_camera_storyboardUITests.swift; sourceTree = "<group>"; };
+		A936F9242B2ECB53002DEBBA /* depth_camera_storyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depth_camera_storyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A936F9312B2FBD14002DEBBA /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		A9E5983E2B43ED3B00F1126C /* DepthMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthMapController.swift; sourceTree = "<group>"; };
+		A9E598402B43EF5900F1126C /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
+		A9E598422B44199000F1126C /* DepthMapCaptureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthMapCaptureProcessor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A936F8FB2B2ECB51002DEBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A936F9112B2ECB53002DEBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A936F91B2B2ECB53002DEBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A936F8F52B2ECB51002DEBBA = {
+			isa = PBXGroup;
+			children = (
+				A936F9002B2ECB51002DEBBA /* depth_camera_storyboard */,
+				A936F9172B2ECB53002DEBBA /* depth_camera_storyboardTests */,
+				A936F9212B2ECB53002DEBBA /* depth_camera_storyboardUITests */,
+				A936F8FF2B2ECB51002DEBBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A936F8FF2B2ECB51002DEBBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A936F8FE2B2ECB51002DEBBA /* depth_camera_storyboard.app */,
+				A936F9142B2ECB53002DEBBA /* depth_camera_storyboardTests.xctest */,
+				A936F91E2B2ECB53002DEBBA /* depth_camera_storyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A936F9002B2ECB51002DEBBA /* depth_camera_storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A936F9012B2ECB51002DEBBA /* AppDelegate.swift */,
+				A936F9032B2ECB51002DEBBA /* SceneDelegate.swift */,
+				A936F9052B2ECB51002DEBBA /* ViewController.swift */,
+				A936F9072B2ECB51002DEBBA /* Main.storyboard */,
+				A936F90A2B2ECB53002DEBBA /* Assets.xcassets */,
+				A936F90C2B2ECB53002DEBBA /* LaunchScreen.storyboard */,
+				A936F90F2B2ECB53002DEBBA /* Info.plist */,
+				A936F9312B2FBD14002DEBBA /* CameraController.swift */,
+				A9E5983E2B43ED3B00F1126C /* DepthMapController.swift */,
+				A9E598422B44199000F1126C /* DepthMapCaptureProcessor.swift */,
+				A9E598402B43EF5900F1126C /* InputController.swift */,
+			);
+			path = depth_camera_storyboard;
+			sourceTree = "<group>";
+		};
+		A936F9172B2ECB53002DEBBA /* depth_camera_storyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A936F9182B2ECB53002DEBBA /* depth_camera_storyboardTests.swift */,
+			);
+			path = depth_camera_storyboardTests;
+			sourceTree = "<group>";
+		};
+		A936F9212B2ECB53002DEBBA /* depth_camera_storyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A936F9222B2ECB53002DEBBA /* depth_camera_storyboardUITests.swift */,
+				A936F9242B2ECB53002DEBBA /* depth_camera_storyboardUITestsLaunchTests.swift */,
+			);
+			path = depth_camera_storyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A936F8FD2B2ECB51002DEBBA /* depth_camera_storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A936F9282B2ECB53002DEBBA /* Build configuration list for PBXNativeTarget "depth_camera_storyboard" */;
+			buildPhases = (
+				A936F8FA2B2ECB51002DEBBA /* Sources */,
+				A936F8FB2B2ECB51002DEBBA /* Frameworks */,
+				A936F8FC2B2ECB51002DEBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = depth_camera_storyboard;
+			productName = depth_camera_storyboard;
+			productReference = A936F8FE2B2ECB51002DEBBA /* depth_camera_storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A936F9132B2ECB53002DEBBA /* depth_camera_storyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A936F92B2B2ECB53002DEBBA /* Build configuration list for PBXNativeTarget "depth_camera_storyboardTests" */;
+			buildPhases = (
+				A936F9102B2ECB53002DEBBA /* Sources */,
+				A936F9112B2ECB53002DEBBA /* Frameworks */,
+				A936F9122B2ECB53002DEBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A936F9162B2ECB53002DEBBA /* PBXTargetDependency */,
+			);
+			name = depth_camera_storyboardTests;
+			productName = depth_camera_storyboardTests;
+			productReference = A936F9142B2ECB53002DEBBA /* depth_camera_storyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A936F91D2B2ECB53002DEBBA /* depth_camera_storyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A936F92E2B2ECB53002DEBBA /* Build configuration list for PBXNativeTarget "depth_camera_storyboardUITests" */;
+			buildPhases = (
+				A936F91A2B2ECB53002DEBBA /* Sources */,
+				A936F91B2B2ECB53002DEBBA /* Frameworks */,
+				A936F91C2B2ECB53002DEBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A936F9202B2ECB53002DEBBA /* PBXTargetDependency */,
+			);
+			name = depth_camera_storyboardUITests;
+			productName = depth_camera_storyboardUITests;
+			productReference = A936F91E2B2ECB53002DEBBA /* depth_camera_storyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A936F8F62B2ECB51002DEBBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A936F8FD2B2ECB51002DEBBA = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A936F9132B2ECB53002DEBBA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A936F8FD2B2ECB51002DEBBA;
+					};
+					A936F91D2B2ECB53002DEBBA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A936F8FD2B2ECB51002DEBBA;
+					};
+				};
+			};
+			buildConfigurationList = A936F8F92B2ECB51002DEBBA /* Build configuration list for PBXProject "depth_camera_storyboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A936F8F52B2ECB51002DEBBA;
+			productRefGroup = A936F8FF2B2ECB51002DEBBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A936F8FD2B2ECB51002DEBBA /* depth_camera_storyboard */,
+				A936F9132B2ECB53002DEBBA /* depth_camera_storyboardTests */,
+				A936F91D2B2ECB53002DEBBA /* depth_camera_storyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A936F8FC2B2ECB51002DEBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A936F90E2B2ECB53002DEBBA /* LaunchScreen.storyboard in Resources */,
+				A936F90B2B2ECB53002DEBBA /* Assets.xcassets in Resources */,
+				A936F9092B2ECB51002DEBBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A936F9122B2ECB53002DEBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A936F91C2B2ECB53002DEBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A936F8FA2B2ECB51002DEBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E598412B43EF5900F1126C /* InputController.swift in Sources */,
+				A936F9062B2ECB51002DEBBA /* ViewController.swift in Sources */,
+				A9E5983F2B43ED3B00F1126C /* DepthMapController.swift in Sources */,
+				A936F9022B2ECB51002DEBBA /* AppDelegate.swift in Sources */,
+				A936F9322B2FBD14002DEBBA /* CameraController.swift in Sources */,
+				A936F9042B2ECB51002DEBBA /* SceneDelegate.swift in Sources */,
+				A9E598432B44199000F1126C /* DepthMapCaptureProcessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A936F9102B2ECB53002DEBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A936F9192B2ECB53002DEBBA /* depth_camera_storyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A936F91A2B2ECB53002DEBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A936F9252B2ECB53002DEBBA /* depth_camera_storyboardUITestsLaunchTests.swift in Sources */,
+				A936F9232B2ECB53002DEBBA /* depth_camera_storyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A936F9162B2ECB53002DEBBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A936F8FD2B2ECB51002DEBBA /* depth_camera_storyboard */;
+			targetProxy = A936F9152B2ECB53002DEBBA /* PBXContainerItemProxy */;
+		};
+		A936F9202B2ECB53002DEBBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A936F8FD2B2ECB51002DEBBA /* depth_camera_storyboard */;
+			targetProxy = A936F91F2B2ECB53002DEBBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A936F9072B2ECB51002DEBBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A936F9082B2ECB51002DEBBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A936F90C2B2ECB53002DEBBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A936F90D2B2ECB53002DEBBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A936F9262B2ECB53002DEBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A936F9272B2ECB53002DEBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A936F9292B2ECB53002DEBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8Z33Q4MKK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = depth_camera_storyboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "projects.depth-camera-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A936F92A2B2ECB53002DEBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8Z33Q4MKK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = depth_camera_storyboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "projects.depth-camera-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A936F92C2B2ECB53002DEBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "projects.depth-camera-storyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/depth_camera_storyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/depth_camera_storyboard";
+			};
+			name = Debug;
+		};
+		A936F92D2B2ECB53002DEBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "projects.depth-camera-storyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/depth_camera_storyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/depth_camera_storyboard";
+			};
+			name = Release;
+		};
+		A936F92F2B2ECB53002DEBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "projects.depth-camera-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = depth_camera_storyboard;
+			};
+			name = Debug;
+		};
+		A936F9302B2ECB53002DEBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "projects.depth-camera-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = depth_camera_storyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A936F8F92B2ECB51002DEBBA /* Build configuration list for PBXProject "depth_camera_storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A936F9262B2ECB53002DEBBA /* Debug */,
+				A936F9272B2ECB53002DEBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A936F9282B2ECB53002DEBBA /* Build configuration list for PBXNativeTarget "depth_camera_storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A936F9292B2ECB53002DEBBA /* Debug */,
+				A936F92A2B2ECB53002DEBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A936F92B2B2ECB53002DEBBA /* Build configuration list for PBXNativeTarget "depth_camera_storyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A936F92C2B2ECB53002DEBBA /* Debug */,
+				A936F92D2B2ECB53002DEBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A936F92E2B2ECB53002DEBBA /* Build configuration list for PBXNativeTarget "depth_camera_storyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A936F92F2B2ECB53002DEBBA /* Debug */,
+				A936F9302B2ECB53002DEBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A936F8F62B2ECB51002DEBBA /* Project object */;
+}
